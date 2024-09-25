@@ -1,5 +1,5 @@
 import React, { ChangeEvent, FC, useEffect, useState } from 'react';
-import UserList from '../../assignment/src/components/UserList';
+import UserList from './components/UserList';
 import './App.scss';
 
 const App: FC = () => {  
