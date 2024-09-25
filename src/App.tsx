@@ -1,8 +1,8 @@
-import { ChangeEvent, FC, useEffect, useState } from 'react';
+import { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
 import UserList from './components/UserList';
 import './App.scss';
 
-const App: FC = () => {  
+const App: FunctionComponent = () => {  
 
   const [users, setUsers] = useState<any[]>([]);
   const [filter, setFilter] = useState<string>('');
