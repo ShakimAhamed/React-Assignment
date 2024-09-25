@@ -1,0 +1,38 @@
+.userList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (max-width: 480px) {
+    .userList {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .userCard {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .userList {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .userCard {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .userList {
+      flex-direction: row;
+    }
+  
+    .userCard {
+      width: 45%;
+    }
+  }
+  
